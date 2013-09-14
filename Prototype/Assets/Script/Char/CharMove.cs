@@ -5,7 +5,7 @@ public class CharMove : MonoBehaviour {
 	Transform myTr;
 	CharacterController myController;
 	Vector3 moveDirection;
-	float speed = 5f;
+	float speed = 8f;
 	// Use this for initialization
 	void Start () {
 		myTr = transform;

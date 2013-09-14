@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Missile : MonoBehaviour {
 	Transform myTr;
-	float speed = 15f;
+	float speed = 3f;
 	public Transform explosionPrefab;
 	// Use this for initialization
 	void Start () {

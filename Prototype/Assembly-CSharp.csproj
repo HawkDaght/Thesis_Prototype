@@ -129,6 +129,10 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Script\Char\CharMove.cs" />
+     <Compile Include="Assets\Script\Turret\Explosion.cs" />
+     <Compile Include="Assets\Script\Turret\Missile.cs" />
+     <Compile Include="Assets\Script\Turret\Turret.cs" />
      <Compile Include="Assets\Scripts\BigControl.cs" />
      <Compile Include="Assets\Scripts\SmallControl.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />

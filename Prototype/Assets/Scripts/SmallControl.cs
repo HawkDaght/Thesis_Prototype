@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class SmallControl : MonoBehaviour {
-	float smallSpeed = 0.1f;
+	float smallSpeed = 0.05f;
 	//Transform myBig;
 	// Use this for initialization
 	void Start () {

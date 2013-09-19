@@ -25,7 +25,7 @@ public class BigControl : MonoBehaviour {
 	if(Input.GetKey("right")){
 			transform.position += new Vector3(bigSpeed,0,0);
 		}
-	if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), 1f)){
+	/*if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), 1f)){
 			mySmall.transform.position += new Vector3(0,0,bigSpeed);
 		}
 		else{
@@ -45,10 +45,10 @@ public class BigControl : MonoBehaviour {
 			mySmall.transform.position += new Vector3(bigSpeed,0,0);
 		}else{
 		mySmall.transform.position += new Vector3(0,0,0);	
-		}
+		}*/
 	}
 	
-	void OnTriggerEnter(Collider other){
+	/*void OnTriggerEnter(Collider other){
 	if(other.gameObject.tag == "Small"){
 			Debug.Log("hit");
 			contact = true;
@@ -58,6 +58,6 @@ public class BigControl : MonoBehaviour {
 			if(other.gameObject.tag == "Small"){
 			contact = false;
 		}
-	}
+	}*/
 	
 }

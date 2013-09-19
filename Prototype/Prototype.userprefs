@@ -1,11 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Char/CharMove.cs">
     <Files>
       <File FileName="Assets/Script/Turret/Turret.cs" Line="33" Column="3" />
       <File FileName="Assets/Script/Turret/Missile.cs" Line="6" Column="17" />
       <File FileName="Assets/Script/Turret/Explosion.cs" Line="15" Column="42" />
       <File FileName="Assets/Script/Char/CharMove.cs" Line="8" Column="17" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BigControl.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BigControl.cs" Line="44" Column="87" />
+      <File FileName="Assets\Scripts\SmallControl.cs" Line="9" Column="4" />
+>>>>>>> 9d5e6b2f3acd808390aac480dc06ae574ccd9308
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

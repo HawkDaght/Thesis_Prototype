@@ -48,16 +48,10 @@ public class BigControl : MonoBehaviour {
 		}*/
 	}
 	
-	/*void OnTriggerEnter(Collider other){
-	if(other.gameObject.tag == "Small"){
+	void OnCollisionEnter(Collision other){
+	if(other.gameObject.tag == "Missile"){
 			Debug.Log("hit");
-			contact = true;
 		}
 	}
-	void OnTriggerExit(Collider other){
-			if(other.gameObject.tag == "Small"){
-			contact = false;
-		}
-	}*/
 	
 }

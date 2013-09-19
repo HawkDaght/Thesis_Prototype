@@ -9,6 +9,7 @@ public class Turret : MonoBehaviour {
 	Transform myTr;
 	float fireTime = 1f,fireTimer = 0;
 	Transform spawnPointTr;
+	float range = 20f;
 	
 	
 	// Use this for initialization
@@ -21,7 +22,7 @@ public class Turret : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		fireTimer += Time.deltaTime;
-		if(fireTimer > fireTime){
+		if(fireTimer > fireTime && Vector3.Distance(myTr.position,targetTr.position) < range){
 			fireTimer = 0;
 			fireTime = 5f + Random.Range(-1.5f,1.5f);
 			Transform n = Instantiate(missilePrefab,spawnPointTr.position,spawnPointTr.rotation) as Transform;
